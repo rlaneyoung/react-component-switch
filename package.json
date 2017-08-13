@@ -1,0 +1,31 @@
+{
+  "name": "react-component-switch",
+  "version": "1.0.0",
+  "description": "A React component for creating step-based applications from a list of other components.",
+  "main": "react-component-switch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlaneyoung/react-component-switch.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "switch",
+    "react-component-switch",
+    "react-wizard",
+    "wizard",
+    "steps",
+    "react-steps",
+    "jquery-steps",
+    "forms"
+  ],
+  "author": "rlaneyoung (RLY)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rlaneyoung/react-component-switch/issues"
+  },
+  "homepage": "https://github.com/rlaneyoung/react-component-switch#readme"
+}
