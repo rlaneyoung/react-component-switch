@@ -12,6 +12,7 @@
 * [Usage and Examples](#usage-and-examples)
   + [Creating a List of Child Components](#creating-a-list-of-child-components)
   + [Traversing the List](#traversing-the-list)
+  + [Passing Side Components](#passing-side-components)
 
 
 ## Installing
