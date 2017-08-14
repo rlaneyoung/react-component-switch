@@ -1,9 +1,9 @@
 import React from 'react';
 
 /**
-	* Class Representing ComponentSwitch - a react component for switching between a list of components.
+  * Class Representing ComponentSwitch - a react component for switching between a list of components.
   * Useful for any application that requires steps. Ex: Wizards, Account Creation, Two factor Auth, etc.
-	*/
+  */
 
 module.exports = class ComponentSwitch extends React.Component{
 
@@ -47,8 +47,8 @@ module.exports = class ComponentSwitch extends React.Component{
   }
 
 /**
-	* Function to go to next step
-	*/
+  * Function to go to next step
+  */
   next(){
     const components = this.props.components;
     let wrap = this.props.wrap;
@@ -66,8 +66,8 @@ module.exports = class ComponentSwitch extends React.Component{
 
 
 /**
-	* Function to go back one step.
-	*/
+  * Function to go back one step.
+  */
   back(){
     const components = this.props.components;
     const wrap = this.props.wrap;
@@ -102,7 +102,7 @@ module.exports = class ComponentSwitch extends React.Component{
       Component = null;
     }
 
-    if(Component){
+    if(Component){                      
       return <Component ComponentSwitch={this} />;  // Pass ComponentSwitch down as property to child component so it has access to next, back, and setStep function.
     }
   }
